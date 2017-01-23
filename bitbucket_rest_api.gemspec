@@ -19,10 +19,11 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'faraday', '~> 0.9.0'
   gem.add_dependency 'multi_json',  '>= 1.7.5', '< 2.0'
   gem.add_dependency 'faraday_middleware', '~> 0.9.0'
-  gem.add_dependency 'nokogiri', '>= 1.5.2'
+  gem.add_dependency 'nokogiri', '>= 1.5.2', '< 1.7.0'
   gem.add_dependency 'simple_oauth'
 
   gem.add_development_dependency 'rspec', '>= 0'
+  gem.add_development_dependency 'rack', '< 2.0.0'
   gem.add_development_dependency 'rack-test'
   gem.add_development_dependency 'webmock', '~> 1.8.0'
   gem.add_development_dependency 'vcr', '~> 2.2.0'
